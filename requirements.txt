@@ -4,3 +4,4 @@ streamlit
 scikit-learn==1.2.2
 pip==23.0.1
 imbalanced-learn==0.10.1
+tensorflow
