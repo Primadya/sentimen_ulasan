@@ -39,14 +39,14 @@ def load_model_cnn():
 
 # Aplikasi utama Streamlit
 def main():
-    st.title("Aplikasi Prediksi Sentimen Ulasan")
+    st.title("Prediksi Sentimen Ulasan Aplikasi B612")
 
     menu = ["Home", "Train Model", "Predict Sentiment"]
     choice = st.sidebar.selectbox("Menu", menu)
 
     if choice == "Home":
         st.subheader("Home")
-        st.write("Selamat datang di aplikasi prediksi sentimen ulasan!")
+        st.write("Selamat datang di aplikasi prediksi sentimen ulasan untuk Aplikasi B612 dari Google PlayStore!")
 
     elif choice == "Train Model":
         st.subheader("Train Model")
